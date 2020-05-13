@@ -35,7 +35,7 @@ select yes_no_to_boolean(yes_no) from {{ ref('other_model') }}
 </File>
 
 
-The `set_sql_header` macro a convenience method for setting the `sql_header` model config. This config can also be supplied manually:
+The `set_sql_header` macro is a convenience method for setting the `sql_header` model config. This config can also be supplied manually:
 
 <File name='models/my_model.sql'>
 
